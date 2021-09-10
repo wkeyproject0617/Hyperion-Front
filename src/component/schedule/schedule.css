@@ -1,0 +1,40 @@
+.Schedule{
+    margin-top: 32px;
+}
+
+.Schedule__ContentWrap{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.Schedule__InputLabel{
+    display: block;
+    font: normal normal normal 8px/11px Noto Sans KR;
+    color: #231F20;
+}
+
+
+.Schedule__InputSearch, .Schedule__InputButton {
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    padding: 8px;
+    width:100%;
+    margin-top: 8px;
+    font: normal normal normal 10px/15px Noto Sans KR;
+}
+
+.Schedule__InputButton {
+    margin-bottom: 8px;
+    background: #1B3965;
+    color: white;
+    
+}
+.Schedule__InputButton:hover {
+
+    background: #9162FF;
+    
+}

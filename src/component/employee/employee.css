@@ -1,0 +1,21 @@
+.Employee{
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    padding-left:15%;
+    padding-right:15%;
+}
+
+@media(max-width:1065px){
+    .Employee{
+        padding-left:10%;
+        padding-right:10%;
+    }
+}
+
+@media(max-width:930px){
+    .Employee{
+        padding-left:5%;
+        padding-right:5%;
+    }
+}

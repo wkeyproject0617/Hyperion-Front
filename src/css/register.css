@@ -1,0 +1,141 @@
+div.WrapForm{
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  padding:16px;
+}
+
+div.WrapImg{
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  padding:16px;
+  /* margin-top: 100px; */
+}
+
+input.InputID, input.InputPW, input.InputPWRe, input.InputName, input.InputAuthNumber, input.InputEmail{
+  display: inline-block;
+  border-radius: 5px;
+  border-width:1px;
+  border-style: solid;
+  font-size:15px;
+  padding:16px;
+  width:460px;
+  margin:5px;
+}
+
+.RegisterCancleBtn {
+  text-align:center;
+  display:inline;
+  box-sizing: content-box;
+  color:white;
+  font-size:20px;
+  font-weight: bold;
+  padding:16px;
+  width:40%;
+  margin:5px;
+  float:left;
+  background: #FF7062 0% 0% no-repeat padding-box;
+  border: 1px solid #EF4F3F;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+.RegisterCancleBtn:focus{
+  outline:none;
+}
+
+.RegisterCancleBtn a {
+  color: #FFFFFF;
+  opacity: 1;
+  text-decoration: none;
+  display:inline-block;
+  width:100%;
+  cursor:pointer;
+}
+
+button.RegisterButton{
+  text-align: center;
+  display:inline;
+  box-sizing: content-box;
+  color:white;
+  border-style: solid;
+  font-size:20px;
+  font-weight: bold;
+  padding:16px;
+  width:40%;
+  margin:5px;
+  float:right;
+  cursor:pointer;
+  background: #1B3965 0% 0% no-repeat padding-box;
+  border: 1px solid #102340;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+span.BirthLabel, span.PhoneAuthLabel, span.NameLabel, span.IDPWLabel, span.EmailLabel, 
+span.EmailState, span.IdState, span.PwState, span.PwReState, span.BirthYearState, span.TeleState, span.GenderLabel{
+  display: inline-block;
+  margin:5px;
+}
+
+.IdState {
+  color:green;
+}
+span.BirthYearState{
+  display: inline-block;
+  box-sizing: border-box;
+  width:169px;
+  margin:5px;
+  font-size:14px;
+}
+span.BirthDayState{
+  display: inline;
+  box-sizing: border-box;
+  font-size:14px;
+  float:right;
+  margin-right:5px;
+}
+
+input.InputBirthYear, select.InputBirthMonth, input.InputBirthDay, select.InputGender{
+  display: inline-block;
+  border-radius: 5px;
+  border-width:1px;
+  border-style: solid;
+  font-size:15px;
+  padding:16px;
+  width:135px;
+  margin:5px;
+}
+input.InputPhoneNumber{
+  display: inline-block;
+  border-radius: 5px;
+  border-width:1px;
+  border-style: solid;
+  font-size:15px;
+  padding:16px;
+  width:300px;
+  margin:5px;
+}
+button.ButtonMakeAuthNumber{
+  text-align: center;
+  display:inline-block;
+  box-sizing: content-box;
+  color:white;
+  border-style: solid;
+  font-size:15px;
+  font-weight: bold;
+  padding:16px;
+  width:115px;
+  margin:5px;
+  background: #1B3965 0% 0% no-repeat padding-box;
+  border: 1px solid #102340;
+  border-radius: 2px;
+  opacity: 1;
+}
+
+div.ButtonWrap{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}

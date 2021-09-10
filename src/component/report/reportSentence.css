@@ -1,0 +1,147 @@
+.ReportSentence__ContentWrap{
+    padding: 16px;
+    margin-top: 32px;
+    background-color: #FAFAFA;
+    border: 1px solid #E8EBEF;
+    border-radius: 2px;
+}
+
+.ReportSentence__Content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ReportSentence__Table{
+    border-collapse: collapse;
+    width:48%;
+    margin-bottom: 16px;
+}
+
+#ReportSentence__TableStyle{
+    border: 1px solid #C5CCD7;
+}
+
+.ReportSentence__Thead{
+    display: flex;
+    border: 1px solid #C5CCD7;
+    background-color: rgb(230, 230, 230);
+}
+
+.ReportSentence__NoLabel{
+    display: inline-block;
+    border-right: 1px solid #C5CCD7;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    padding:8px;
+    text-align: center;
+}
+
+.ReportSentence__InputLabel{
+    display: inline-block;
+    border-right: 1px solid #C5CCD7;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    padding: 8px;
+    width:100%;
+}
+
+.ReportSentence__SelectLabel{
+    box-sizing: border-box;
+    display: inline-block;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    padding: 8px;
+    text-align: center;
+    flex-shrink: 0;
+    flex-basis: 100px;
+}
+
+
+.ReportSentence__Tbody{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ReportSentence__No{
+    display: flex;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background-color: #1B3965;
+    flex-shrink: 0;
+    flex-basis: 35px;
+}
+
+.ReportSentence__Input{
+    box-sizing: border-box;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    width: 100%;
+    padding:8px;
+    border:none;
+    background-color: white;
+    border-right: 1px solid #C5CCD7;
+    border-bottom: 1px solid #C5CCD7;
+}
+
+.ReportSentence__Select{
+    box-sizing: border-box;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    padding:8px;
+    border:none;
+    border-right: 1px solid #C5CCD7;
+    border-bottom: 1px solid #C5CCD7;
+    text-align: center;
+    background-color: white;
+    flex-shrink: 0;
+    flex-basis: 70px;
+}
+.ReportSentence__AnswerLabel{
+    display: inline-block;
+    box-sizing: border-box;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    width: 45%;
+    padding:8px;
+    border:none;
+    background-color: rgb(230, 230, 230);
+    border-right: 1px solid #C5CCD7;
+    border-left: 1px solid #C5CCD7;
+    border-bottom: 1px solid #C5CCD7;
+}
+
+
+.ReportSentence__DeleteRow{
+    background-color: #FF7062;
+    border:none;
+    padding:8px;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    font-weight: bolder;
+    color:white;
+    flex-shrink: 0;
+    flex-basis: 35px;
+}
+
+
+.ReportSentence__AddRow{
+    background-color: #1B3965;
+    border:none;
+    padding:8px;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    font-weight: bolder;
+    color:white;
+    flex-shrink: 0;
+    flex-basis: 35px;
+}
+
+.ReportSentence__InputWrap{
+    display: flex;
+    width:100%;
+}
+
+.ReportSentence__CheckWrap{
+    display: flex;
+    box-sizing: border-box;
+    padding:5px;
+    align-items: center;
+    background-color: white;
+    border-right: 1px solid #C5CCD7;
+    border-bottom: 1px solid #C5CCD7;
+}

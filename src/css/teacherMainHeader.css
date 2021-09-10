@@ -1,0 +1,30 @@
+#TeacherMainHeaderTitle{
+  box-sizing: border-box;
+  padding:16px;
+  width:100%;
+  background-color: #1B3965;
+}
+#HeaderTitle{
+  text-align: center;
+  font-size: 29px;
+  color: #FFFFFF;
+}
+#NavButtons{
+  display: flex;
+  justify-content: center;
+  width:100%;
+  background-color: #FAFAFA;
+}
+
+.TeacherMainHeader__NavButton{
+  box-sizing: border-box;
+  display:inline-block;
+  width: 150px;
+  padding:8px;
+  text-align: center;
+  text-decoration: none;
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  border: none;
+  font: normal normal normal 16px/24px Noto Sans KR;
+  color: black;
+}

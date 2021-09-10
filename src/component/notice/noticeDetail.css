@@ -1,0 +1,113 @@
+.NoticeDetail{
+    width:100%;
+}
+.NoticeDetail__Header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    padding:8px;
+    background-color: #FAFAFA;
+}
+.NoticeDetail__Id{
+    display: inline-block;
+    font: normal normal normal 16px/20px Noto Sans KR;
+    color: #231F20;
+    text-align: center;
+    width:5%;
+}
+
+.NoticeDetail__Division{
+    display: inline-block;
+    font: normal normal normal 16px/20px Noto Sans KR;
+    color: #231F20;
+    text-align: center;
+    width:10%;
+}
+
+.NoticeDetail__Title{
+    display: inline-block;
+    font: normal normal normal 16px/20px Noto Sans KR;
+    color: #231F20;
+    width:70%;
+}
+
+.NoticeDetail__Date{
+    display: inline-block;
+    font: normal normal normal 16px/20px Noto Sans KR;
+    color: #231F20;
+    text-align: center;
+    width:15%;
+}
+
+.NoticeDetail__Body{
+    margin-top: 16px;
+}
+
+.NoticeDetail__Contents{
+    box-sizing: border-box;
+    width:100%;
+    background-color: #FAFAFA;
+    padding:32px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    color: #231F20;
+    border-bottom:1px dashed #8C9BB1;
+}
+
+.NoticeDetail__FileWrap{
+    box-sizing: border-box;
+    width:100%;
+    background-color: #FAFAFA;
+}
+
+.NoticeDetail__FileLabel{
+    display: inline-block;
+    padding-left:32px;
+    padding-right:32px;
+    padding-top:16px;
+    padding-bottom:16px;
+    font: normal normal normal 16px/20px Noto Sans KR;
+    color: #231F20;
+}
+
+.NoticeDetail__Foot{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 32px;
+}
+
+.NoticeDetail__GoNoticeList{
+    width:120px;
+    padding:8px;
+    margin-right:16px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    background-color: #FAFAFA;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+}
+.NoticeDetail__DeleteNotice{
+    width:120px;
+    padding:8px;
+    margin-right:16px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    background-color: #FF7062;
+    border: 1px solid #EF4F3F;
+    border-radius: 2px;
+    color: white;
+}
+
+.NoticeDetail__UpdateNotice{
+    width:120px;
+    padding:8px;
+    margin-right:16px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    background-color: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    color: white;
+}
+
+.NoticeDetail__NextWrap{
+    margin-top: 32px;
+    border-top: 1px solid #8C9BB1;
+}

@@ -1,0 +1,15 @@
+.Schedule__MakeUpLesson__Button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.Schedule__MakeUpLesson__Button {
+  border: 1px solid #c5ccd7;
+
+  background-color: #f3f4f6;
+  width: 100%;
+  padding: 8px;
+  font: normal normal normal 8px/11px Noto Sans KR;
+}
+.Schedule__MakeUpLesson__NavMakeUpLessonFunctionWrap {
+  /* padding-top: 8px; */
+}

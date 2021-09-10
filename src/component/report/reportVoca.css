@@ -1,0 +1,63 @@
+
+.ReportVoca__ContentWrap{
+    padding: 16px;
+    margin-top: 32px;
+    background-color: #FAFAFA;
+    border: 1px solid #E8EBEF;
+    border-radius: 2px;
+}
+
+.ReportVoca__Content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ReportVoca__Table{
+    width:48%;
+    border-collapse: collapse;
+}
+
+.ReportVcoa__Thead{
+    border: 1px solid #C5CCD7;
+    background-color: rgb(230, 230, 230);
+}
+
+#vocaTable{
+    border: 1px solid #C5CCD7;
+}
+
+.ReportVoca__TheadNo{
+    font: normal normal normal 12px/17px Noto Sans KR;
+    text-align: center;
+    color: #231F20;
+    padding:8px;
+}
+.ReportVoca__TheadEng{
+    font: normal normal normal 12px/17px Noto Sans KR;
+    text-align: center;
+    color: #231F20;
+    padding:8px;
+}
+.ReportVoca__TheadKor{
+    font: normal normal normal 12px/17px Noto Sans KR;
+    text-align: center;
+    color: #231F20;
+    padding:8px;
+}
+
+.ReportVoca__TbodyNo{
+    font: normal normal normal 12px/17px Noto Sans KR;
+    text-align: center;
+    color: white;
+    background-color: #1B3965;
+    padding:8px;
+}
+.ReportVoca__InputVoca{
+    border: none;
+    background-color: #FFFFFF;
+    padding:8px;
+    width: 100%;
+    box-sizing: border-box;
+}
+

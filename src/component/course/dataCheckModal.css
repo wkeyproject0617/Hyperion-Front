@@ -1,0 +1,40 @@
+.DataCheckModal__ButtonWrap{
+    display: flex;
+    justify-content: space-between;
+    padding-top:16px;
+    border-top:1px solid #C5CCD7;
+}
+.DataCheckModal__TextWrap{
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+.DataCheckModal__Title{
+    display: block;
+    font: normal normal normal 14px/17px Noto Sans KR;
+    text-align: center;
+    font-weight: bold;
+    color: #102340;
+}
+
+.DataCheckModal__Text{
+    display: block;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    text-align: center;
+    color: #102340;
+}
+
+.DataCheckModal__ButtonCancel{
+    padding:8px;
+    width:120px;
+    background: #1B3965;
+    border: 1px solid #102340;
+    color:white;
+}
+
+.DataCheckModal__ButtonConfirm{
+    padding:8px;
+    width:120px;
+    background: #9162FF;
+    border: 1px solid #6C3AE0;
+    color:white;
+}

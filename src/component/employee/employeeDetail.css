@@ -1,0 +1,36 @@
+.EmployeeDetail{
+    width: 400px;
+    background-color: #FAFAFA;
+    padding:16px;
+    justify-content: space-between;
+    border: 1px solid #C5CCD7;
+    border-top: none;
+    box-sizing: border-box;
+}
+
+.EmployeeDetail__ButtonRegisterSubject{
+    background-color: #9162FF;
+    border: 1px solid #6C3AE0;
+    width: 100%;
+    text-align: center;
+    color: white;
+    padding: 8px;
+    border-radius: 2px;
+}
+
+.EmployeeDetail__SubjectLevelWrap{
+    display: inline-block;
+    width:45%;
+    margin-top: 8px;
+}
+
+.EmployeeDetail__SubjectDivisionWrap{
+    display: inline-block;
+    width:45%;
+}
+
+
+.EmployeeDetail__InputSubjectWrap, .EmployeeDetail__InputStudentWrap, .EmployeeDetail__SubjectNameWrap, .EmployeeDetail__InputSubjectListWrap, .EmployeeDetail__ButtonWrap{
+    margin-top: 8px;
+    width: 100%;
+}

@@ -1,0 +1,178 @@
+.subjectWrap {
+  padding:0 15%;
+  margin-top:32px;
+  margin-bottom:32px;
+}
+
+.subjectTable {
+  width:100%;
+  border-collapse: collapse;
+  /* border:solid 1px black; */
+  margin-bottom:16px;
+}
+
+.subjectTableHeader {
+  background: #F3F4F6 0% 0% no-repeat padding-box;
+  opacity: 1;
+}
+
+.subjectTableHeader td {
+  border-bottom:solid 1px #8C9BB1;
+  font: normal normal normal 14px/20px "Noto Sans KR";
+  text-align: center;
+  height:5vh;
+}
+
+.subjectTableBody {
+  font: normal normal normal 14px/20px "Noto Sans KR";
+  text-align: center;
+  background-color: #FAFAFA;
+}
+
+.subjectTableBody:hover {
+  background-color: #F3F4F6;
+}
+
+.subjectTableBody td {
+  height:5vh;
+  cursor:pointer;
+}
+
+.subjectTableCategory {
+  width:7%;
+}
+
+.subjectController {
+  display:flex;
+  justify-content:space-between;
+}
+
+.subjectCtrlSelect {
+  height:35px;
+  width:100px;
+  padding:8px;
+  font: normal normal normal 14px/20px Noto Sans KR;
+  cursor:pointer;
+  box-sizing: border-box;
+}
+
+.subjectCtrlAddBtn {
+  height:35px;
+  width:100px;
+  background-color: #1B3965;
+  border: 1px solid #102340;
+  border-radius: 2px;
+  font: normal normal normal 14px/20px Noto Sans KR;
+  color:white;
+  cursor:pointer;
+}
+
+#subjectModal {
+  display:none;
+  position:relative;
+  width:100%;
+  height:100%;
+  z-index:1;
+}
+
+.subjectModalContents {
+  margin:0;
+  width:30vw;
+  padding:20px 10px;
+  background: #FAFAFA 0% 0% no-repeat padding-box;
+  box-shadow: 2px 2px 4px #231F2033;
+  border: 1px solid #C5CCD7;
+  border-radius: 2px;
+  opacity: 1;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.subjectModalContentsTitle {
+  width:100%;
+  border-bottom: 1px solid #C5CCD7;
+  opacity: 1;
+  padding-bottom:10px;
+  margin-bottom:10px;
+}
+
+.subjectModalContentsTitle div{
+  font: normal normal normal 20px/25px Noto Sans KR;
+  letter-spacing: 0px;
+  color: #102340;
+  opacity: 1;
+  margin-bottom:5px;
+}
+
+.subjectModalContentsTitle span {
+  font: normal normal normal 12px/18px Noto Sans KR;
+  letter-spacing: 0px;
+  color: #1B3965;
+}
+
+.subjectModalContentsInput span {
+  display:block;
+  padding-left:2%;
+  font: normal normal normal 12px/18px Noto Sans KR;
+  letter-spacing: 0px;
+  color: #231F20;
+  opacity: 1;
+  margin-bottom:1%;
+}
+
+.subjectModalContentsInput input {
+  width:100%;
+  line-height: 4vh;
+  padding:5px;
+  box-sizing: border-box;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #C5CCD7;
+  border-radius: 2px;
+  margin-bottom:3%;
+}
+
+.subjectModalContentsInput input:focus {
+  outline:none;
+}
+
+.subjectModalContentsBtnWrap {
+  display:flex;
+  justify-content: space-between;
+}
+
+.subjectModalContents button{
+  width:45%;
+  height:5vh;
+  border-radius: 2px;
+  text-align: center;
+  font: normal normal normal 12px/17px Noto Sans KR;
+  letter-spacing: 0px;
+  color: #FFFFFF;
+  cursor:pointer;
+}
+
+.subjectModalCloseBtn {
+  background: #FF7062 0% 0% no-repeat padding-box;
+  border: 1px solid #EF4F3F;
+}
+
+.subjectModalSubmitBtn {
+  background: #1B3965 0% 0% no-repeat padding-box;
+  border: 1px solid #102340;
+}
+
+#subjectModal .modal_layer {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background:rgba(0, 0, 0, 0.5);
+  z-index:-1;
+}

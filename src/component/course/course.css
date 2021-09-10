@@ -1,0 +1,84 @@
+.Course{
+    margin-top: 32px;
+    padding-left:15%;
+    padding-right:15%;
+}
+
+.CourseHeader{
+    box-sizing: border-box;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+    background-color: #F3F4F6;
+    border-bottom: 1px solid #8C9BB1;
+}
+
+.Course__Select{
+    text-align: center;
+    width:7%;
+}
+
+.Course__Division{
+    text-align: center;
+    width:10%;
+}
+
+.Course__Pin{
+    text-align: center;
+    width:7%;
+}
+
+.Course__Title{
+    width:50%;
+}
+
+.Course__Teacher{
+    text-align: center;
+    width:10%;
+}
+
+.Course__Student{
+    text-align: center;
+    width:10%;
+}
+
+.Course__Time{
+    text-align: center;
+    width:15%;
+}
+
+.Course__Date{
+    text-align: center;
+    width:15%;
+}
+.CourseFoot{
+    margin-top:16px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.CourseFoot__SelectDivision{
+    height:35px;
+    width:100px;
+    padding:8px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+}
+  
+.CourseFoot__AddCourse{
+    height:35px;
+    width:100px;
+    background-color: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    color:white;
+}
+
+
+@media(max-width:820px){
+    .Course{
+        padding-left:5%;
+        padding-right:5%;
+    }
+}

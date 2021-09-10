@@ -1,0 +1,92 @@
+.ReportGrammarChoice__ContentWrap{
+    padding: 16px;
+    margin-top: 32px;
+    background-color: #FAFAFA;
+    border: 1px solid #E8EBEF;
+    border-radius: 2px;
+}
+
+.ReportGrammarChoice__Content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ReportGrammarChoice__Table{
+    border-collapse: collapse;
+    width:48%;
+    margin-bottom: 16px;
+}
+
+#ReportGrammarChoice__TableStyle{
+    border: 1px solid #C5CCD7;
+}
+
+.ReportGrammarChoice__Thead{
+    border: 1px solid #C5CCD7;
+    background-color: rgb(230, 230, 230);
+}
+
+.ReportGrammarChoice__NoLabel{
+    display: inline-block;
+    border-right: 1px solid #C5CCD7;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    padding:8px;
+    width:18px;
+    text-align: center;
+}
+
+.ReportGrammarChoice__InputLabel{
+    display: inline-block;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    padding: 8px;
+}
+
+.ReportGrammarChoice__Input{
+    box-sizing: border-box;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    width: 100%;
+    padding:8px;
+    border:none;
+    border-right: 1px solid #C5CCD7;
+    border-left: 1px solid #C5CCD7;
+    border-bottom: 1px solid #C5CCD7;
+}
+
+.ReportGrammarChoice__Tbody{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ReportGrammarChoice__No{
+    display: inline-block;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    text-align: center;
+    color: white;
+    background-color: #1B3965;
+    width:35px;
+    flex-shrink: 0;
+    padding-top:115px;
+}
+
+.ReportGrammarChoice__AnswerLabel{
+    display: inline-block;
+    box-sizing: border-box;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    width: 100%;
+    padding:8px;
+    border:none;
+    background-color: rgb(230, 230, 230);
+    border-right: 1px solid #C5CCD7;
+    border-left: 1px solid #C5CCD7;
+    border-bottom: 1px solid #C5CCD7;
+}
+
+.ReportGrammarChoice__CheckWrap{
+    box-sizing: border-box;
+    padding:5px;
+    background-color: white;
+    padding-top:108px;
+    border-right: 1px solid #C5CCD7;
+    border-bottom: 1px solid #C5CCD7;
+}

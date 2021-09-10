@@ -1,0 +1,16 @@
+.ReportContentTemp{
+    box-sizing: border-box;
+    width:48%;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #C5CCD7;
+    background-color: rgb(230, 230, 230);
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.ReportContentTemp__Span{
+    box-sizing: border-box;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    color: grey;
+}

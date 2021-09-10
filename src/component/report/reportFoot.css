@@ -1,0 +1,29 @@
+.ReportFoot{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.ReportFoot__InputTimeLabel{
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color: #231F20;
+}
+
+.ReportFoot__InputTime{
+    box-sizing: border-box;
+    width:120px;
+    padding:8px;
+    border: 1px solid #C5CCD7;
+    margin-left: 16px;
+    text-align: center;
+}
+
+.ReportFoot__ButtonSave{
+    width:120px;
+    padding:8px;
+    background-color: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    color: white;
+}

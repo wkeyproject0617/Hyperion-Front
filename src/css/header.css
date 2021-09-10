@@ -1,0 +1,59 @@
+#HeaderWrap{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width:100%;
+  background-color: #FAFAFA;
+  box-shadow: 0px 2px 4px #231F2033;
+}
+#Title{
+  display: inline-block;
+  font-size: 20px;
+}
+
+#ButtonGoTeacher, #ButtonGoPage, #ButtonGoStudent, #ButtonDynamic{
+  display:inline-block;
+  width: 120px;
+  padding:8px;
+  background-color: #9162FF;
+  border: 1px solid #6C3AE0;
+  border-radius: 0px 2px 2px 0px;
+  text-align: center;
+  text-decoration: none;
+  font: normal normal normal 16px/24px Noto Sans KR;
+  color: white;
+}
+
+#ButtonGoStudent{
+  background-color:#1B3965;
+  border: 1px solid #102340;
+  border-radius: 2px 0px 0px 2px;
+  border-right: 0px;
+}
+
+#ButtonGoPage{
+  width: 100px;
+  background-color: #FAFAFA;
+  border: 1px solid #FAFAFA;
+  border-radius: 2px;
+  color: black;
+}
+
+#ButtonDynamic{
+  border-radius: 2px;
+}
+
+#ButtonDynamic:hover{
+  background-color: #C7AFFF;
+  border-radius: 2px;
+}
+
+nav{
+  padding:8px;
+}
+
+#Logo{
+  display: inline-block;
+  padding: 8px;
+  width: 48px;
+}

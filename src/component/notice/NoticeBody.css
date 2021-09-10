@@ -1,0 +1,54 @@
+.Notice__Body{
+  width: 100%;
+}
+.Notice__Contents{ 
+  background-color: #FAFAFA;
+  display: flex;
+  justify-content: space-between;
+  padding:8px;
+}
+.Notice__Contents:hover{ 
+  background-color: #F3F4F6;
+}
+
+.Notice__Title{
+  display:inline-block;
+  font: normal normal normal 14px/20px "Noto Sans KR";
+  width:65%;
+  padding-left:8px;
+}
+.Notice__Select{
+  font: normal normal normal 14px/20px "Noto Sans KR";
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  width:5%;
+}
+.Notice__Pin{
+  display:flex;
+  font: normal normal normal 14px/20px "Noto Sans KR";
+  justify-content: center;
+  text-align: center;
+  width:5%;
+}
+.Notice__Id{
+  display:flex;
+  font: normal normal normal 14px/20px "Noto Sans KR";
+  justify-content: center;
+  text-align: center;
+  width:5%;
+}
+
+.Notice__Division{
+  font: normal normal normal 14px/20px "Noto Sans KR";
+  display:inline-block;
+  text-align: center;
+  width:10%;
+}
+
+.Notice__Date{
+  font: normal normal normal 14px/20px "Noto Sans KR";
+  display:inline-block;
+  text-align: center;
+  width:15%;
+}

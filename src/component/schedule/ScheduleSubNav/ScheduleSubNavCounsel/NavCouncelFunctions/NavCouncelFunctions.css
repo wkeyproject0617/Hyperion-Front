@@ -1,0 +1,15 @@
+.Schedule__Course__ButtonNavTeacher:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+.Schedule__Course__ButtonNavTeacher {
+  border: 1px solid #c5ccd7;
+
+  background-color: #f3f4f6;
+  width: 100%;
+  padding: 8px;
+  font: normal normal normal 8px/11px Noto Sans KR;
+}
+.Schedule__Course__NavCourseFunctionWrap {
+  padding-top: 8px;
+}

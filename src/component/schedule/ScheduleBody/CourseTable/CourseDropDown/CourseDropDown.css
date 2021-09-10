@@ -1,0 +1,12 @@
+.Container {
+  width: 104px;
+  position: absolute;
+}
+
+button {
+  width: 104px;
+  height: 24px;
+  background-color: #ffffff;
+  border: 1px solid #c5ccd7;
+  opacity: 1;
+}

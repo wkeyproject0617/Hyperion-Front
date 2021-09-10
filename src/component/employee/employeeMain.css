@@ -1,0 +1,63 @@
+
+.EmployeeMain{
+    width:100%;
+}
+
+.EmployeeMain__Table{
+    width:100%;
+    border-collapse: collapse;
+}
+
+.EmployeeMain__Thead{
+    background: #F3F4F6;
+    border-bottom: 1px solid #8C9BB1;
+
+}
+
+.EmployeeMain__TheadLabel{
+    text-align: center;
+    padding:8px;
+    font: normal normal normal 15px/15px Noto Sans KR;
+    color: #231F20;
+}
+
+.EmployeeMain__Tbody{
+    background: #FAFAFA;
+
+}
+
+.EmployeeMain__TbodyContent{
+    text-align: center;
+    padding:8px;
+    font: normal normal normal 14px/15px Noto Sans KR;
+    color: #231F20;
+}
+.EmployeeMain__Tbody:hover{
+    background: #F3F4F6;
+}
+
+.EmployeeMain__Foot{
+    display: flex;
+    justify-content: space-between;
+    margin-top:32px;
+}
+
+.EmployeeMain__SelectDivision{
+    border: 1px solid #C5CCD7;
+    padding: 8px;
+    width:120px;
+    border-radius: 2px;
+    font: normal normal normal 14px/15px Noto Sans KR;
+}
+
+.EmployeeMain__ButtonRegister{
+    width:120px;
+    padding: 8px;
+    text-align: center;
+    background: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    color: white;
+    font: normal normal normal 14px/15px Noto Sans KR;
+    
+}

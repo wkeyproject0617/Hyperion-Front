@@ -1,0 +1,88 @@
+.EmployeeRegister{
+    width: 400px;
+    margin-top: 16px;
+    background-color: #FAFAFA;
+    padding:16px;
+    justify-content: space-between;
+    border: 1px solid #C5CCD7;
+    box-sizing: border-box;
+}
+
+.EmployeeCRUD__Label{
+    display: block;
+    font: normal normal normal 13px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #231F20;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.EmployeeCRUD__Input{
+    box-sizing: border-box;
+    display: inline-block;
+    padding:8px;
+    width:100%;
+    border: 1px solid #C5CCD7;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.EmployeeRegister__InputTaskWrap, .EmployeeRegister__InputAutoWrap{
+    display: inline-block;
+    width:45%;
+    margin-top: 8px;
+}
+
+.EmployeeRegister__InputWorkDayWrap, .EmployeeRegister__InputTimeWrap {
+    margin-top: 8px;
+    width: 100%;
+}
+
+.EmployeeRegister__InputNameWrap{
+    width: 100%;
+}
+
+.EmployeeRegister__DateLabel{
+    display: inline-block;
+    font: normal normal normal 15px/15px Noto Sans KR;
+}
+
+.EmployeeRegister__SelectCourseDate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.EmployeeRegister__CheckDate{
+    margin: 0;
+    margin-left: 4px;
+    margin-bottom: 2px;
+}
+
+.EmployeeRegister__TimeWrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.EmployeeRegister__InputTime{
+    width:40px;
+    padding:8px;
+    background-color: white;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.EmployeeRegister__TimeLabel{
+    display: inline-block;
+    text-align: center;
+}
+
+.EmployeeRegister__SelectDivision{
+    padding:8px;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    width: 100%;
+}

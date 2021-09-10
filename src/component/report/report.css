@@ -1,0 +1,21 @@
+.ReportBody{
+    margin-top: 32px;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+@media(max-width:1350px){
+    .ReportBody{
+        padding-left:15%;
+        padding-right:15%;
+    }
+}
+
+@media(max-width:1150px){
+    .ReportBody{
+        padding-left:5%;
+        padding-right:5%;
+    }
+}

@@ -1,0 +1,128 @@
+.CourseCRUD{
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+}
+
+.CourseCRUD__Contents{
+    width:450px;
+}
+
+.CourseCRUD__Title{
+    display: block;
+    text-align: center;
+    font: normal normal normal 29px/29px Noto Sans KR;
+    letter-spacing: 0px;
+    margin-bottom: 8px;
+    color: #102340;
+}
+
+.CourseCRUD__SubTitle{
+    display: block;
+    text-align: center;
+    font: normal normal normal 15px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #1B3965;
+}
+
+.CourseCRUD__InputWrap{
+    margin-top: 16px;
+}
+
+.CourseCRUD__InputTeacherDivisionWrap, .CourseCRUD__InputTimeWrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CourseCRUD__InputTeacherWrap, .CourseCRUD__InputDivisionWrap, .CourseCRUD__InputLevelWrap{
+    width:45%;
+}
+
+.CourseCRUD__InputLabel{
+    display: block;
+    font: normal normal normal 13px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #231F20;
+    padding:8px;
+}
+
+.CourseCRUD__InputSubLabel{
+    display: block;
+    font: normal normal normal 13px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #8C9BB1;
+    padding:8px;
+}
+
+.CourseCRUD__Input{
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    padding:8px;
+    width:100%;
+}
+
+.CourseCRUD__SelectCourseDateWrap{
+    padding:8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CourseCRUD__InputStartEndWrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.CourseCRUD__DateLabel{
+    display: inline-block;
+    font: normal normal normal 15px/15px Noto Sans KR;
+}
+
+.CourseCRUD__InputTime{
+    box-sizing: border-box;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    padding:8px;
+    width:45%;
+    text-align: center;
+}
+
+.CourseCRUD__TimeSeparator{
+    padding-top: 5px;
+}
+
+.CourseCRUD__ButtonWrap{
+    display: flex;
+    justify-content: center;
+}
+
+.CourseCRUD__ButtonUpload{
+    width:140px;
+    padding:8px;
+    margin:16px;
+    background-color: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color: white;
+}
+
+.CourseCRUD__ButtonGoToList{
+    width:140px;
+    padding:8px;
+    margin:16px;
+    background-color: #FAFAFA;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color: black;
+}
+
+
+
+@media(min-width:400px){
+    .CourseCRUD__TimeSeparator{
+        padding-right: 8px;
+    }
+}

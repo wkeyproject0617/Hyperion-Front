@@ -1,0 +1,9 @@
+.Notice__Header{
+    box-sizing: border-box;
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+    background-color: #F3F4F6;
+    border-bottom: 1px solid #8C9BB1;
+}

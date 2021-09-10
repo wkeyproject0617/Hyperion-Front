@@ -1,0 +1,55 @@
+.UseModal{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.UseModal__ContentsWrap{
+    width:300px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.UseModal__TopBottomStyle{
+    box-sizing: border-box;
+    width:100%;
+    height:8px;
+    background-color: #1B3965;
+    border:1px solid #102340;
+}
+
+.UseModal__BackButtonWrap{
+    box-sizing: border-box;
+    width:100%;
+    padding:4px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.UseModal__BackButton{
+    width:20px;
+    height: 20px;
+    background-color: white;
+    border: none;
+    text-align: center;
+    padding:0;
+}
+
+.UseModal__Contents{
+    padding:16px;
+    padding-top:0;
+}
+
+.UseModal__Text{
+    display: block;
+    font: normal normal normal 14px/17px Noto Sans KR;
+    text-align: center;
+    color: #102340;
+}

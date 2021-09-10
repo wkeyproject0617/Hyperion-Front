@@ -1,0 +1,34 @@
+.Notice__Foot{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top:16px;
+}
+
+.Notice__SelectDivision{
+    height:35px;
+    width:100px;
+    padding:8px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+}
+  
+.Notice__ButtonDeleteNotice{
+    margin-right:16px;
+    height:35px;
+    width:100px;
+    background-color: #FF7062;
+    border: 1px solid #EF4F3F;
+    border-radius: 2px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    color:white;
+}
+  
+.Notice__AddNotice{
+    height:35px;
+    width:100px;
+    background-color: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    color:white;
+}

@@ -1,0 +1,160 @@
+.NoticeCRUD{
+    width:100%;
+}
+
+.NoticeCRUD__Header{
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+    background-color: #FAFAFA;
+    padding:8px;
+}
+.NoticeCRUD__InputTitle{
+    display: inline-block;
+    width:75%;
+    height:30px;
+    border: 1px solid #1B3965;
+    padding-left:16px;
+    padding-right:16px;
+    border-radius: 2px;
+}
+.NoticeCRUD__SelectDivision{
+    width:100%;
+    padding:8px;
+    background-color: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px 0px 0px 2px; 
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color:white
+}
+.NoticeCRUD__SelectDivisionWrap{
+    width:120px;
+    display: flex;
+    justify-content: center;
+    margin-left: 16px;
+}
+.NoticeCRUD__InputTitleLabel{
+    display: inline-block;
+    width:100px;
+    padding-top: 6px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color: #231F20;
+}
+.NoticeCRUD__ContentsWrap{
+    box-sizing: border-box;
+    margin-top: 16px;
+    padding:8px;
+    background-color: #FAFAFA;
+    width:100%;
+}
+.NoticeCRUD__Contents{
+    box-sizing: border-box;
+    width:100%;
+    height: 400px;
+    padding:16px;
+}
+.NoticeCRUD__FileWrap{
+    box-sizing: border-box;
+    margin-top: 16px;
+    padding:8px;
+    background-color: #FAFAFA;
+    width:100%;
+}
+
+#NoticeCRUD__File{
+    display:none;
+}
+
+.NoticeCRUD__FileSpan{
+    display:inline-block;
+    width:100px;
+    text-align: center;
+    padding:4px;
+}
+
+.NoticeCRUD__FileLabel{
+    font: normal normal normal 12px/17px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #8C9BB1;
+    padding:4px;
+}
+
+.NoticeCRUD__Foot{
+    box-sizing: border-box;
+    margin-top: 16px;
+    padding:8px;
+    width:100%;
+}
+
+.NoticeCRUD__ButtonSelectDateWrap{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NoticeCRUD__NoticeButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.NoticeCRUD__ButtonUploadNotice{
+    width:120px;
+    padding:8px;
+    margin-left: 16px;
+    background-color: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px 0px 0px 2px;
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color: white;
+}
+
+.NoticeCRUD__ButtonAssignDate{
+    padding:8px;
+    background-color: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 0px 2px 2px 0px;
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color: white;
+}
+
+.NoticeCRUD__ButtonDeleteNotice{
+    width:120px;
+    padding:8px;
+    margin-left: 16px;
+    background-color: #FF7062;
+    border: 1px solid #EF4F3F;
+    border-radius: 2px;
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color: white;
+}
+
+.NoticeCRUD__ButtonBack{
+    width:120px;
+    padding:8px;
+    margin-left: 16px;
+    background-color: #FF7062;
+    border: 1px solid #EF4F3F;
+    border-radius: 2px;
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color: white;
+}
+
+.NoticeCRUD__ButtonSelectDate{
+    width:150px;
+    padding:8px;
+    background-color: #FAFAFA;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    font: normal normal medium 14px/20px Noto Sans KR;
+    color: black;
+}
+
+@media(max-width:820px){
+    .Notice{
+        padding-left:5%;
+        padding-right:5%;
+    }
+}

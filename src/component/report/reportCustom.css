@@ -1,0 +1,331 @@
+.ReportCustom__Header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.ReportCustom__Content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.ReportCustom__ProblemHeader{
+    box-sizing: border-box;
+    width:55%;
+    padding: 16px;
+    background-color: #FAFAFA;
+    border: 1px solid #E8EBEF;
+    border-radius: 2px;
+    height:100%;
+}
+
+.ReportCustom__AddHeader{
+    margin-bottom: 16px;
+}
+
+.ReportCustom__AddTitle{
+    display: block;
+    font: normal normal medium 20px/29px Noto Sans KR;
+    margin-bottom: 4px;
+    color: #102340;
+}
+
+.ReportCustom__AddSubTitle{
+    display: block;
+    font: normal normal normal 10px/15px Noto Sans KR;
+    color: #1B3965;
+}
+
+.ReportCustom__AddProblemWrap{
+    border-top: 1px solid #C5CCD7;
+}
+
+.ReportCustom__InputLabel{
+    display: block;
+    font: normal normal normal 13px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #231F20;
+    padding:8px;
+}
+
+.ReportCustom__InputSubLabel{
+    display: block;
+    font: normal normal normal 13px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #8C9BB1;
+    padding:8px;
+}
+
+.ReportCustom__Input{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    padding:8px;
+    width:100%;
+}
+
+.ReportCustom__AddProblemTitleWrap{
+    margin-top: 8px;
+}
+
+.ReportCustom__InputFileWrap{
+    display: flex;
+    width: 70%;
+}
+
+.ReportCustom__FileLabel{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    padding:8px;
+    width:80%;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #C5CCD7;
+}
+
+.ReportCustom__File{
+    display: inline-block;
+    background: #1B3965;
+    box-sizing: border-box;
+    border: 1px solid #102340;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    margin-left: 8px;
+    border-radius: 2px;
+    padding: 8px;
+    width:80px;
+    text-align: center;
+    color: white;
+}
+
+.ReportCustom__AddReportButton{
+    background: #9162FF;
+    border: 1px solid #6C3AE0;
+    border-radius: 2px;
+    color:white;
+    width:120px;
+    padding: 8px;
+}
+
+.ReportCustom__OMRHeader{
+    box-sizing: border-box;
+    width: 40%;
+    padding:16px;
+    background-color: #FAFAFA;
+    border: 1px solid #E8EBEF;
+    border-radius: 2px;
+    height:100%;
+}
+
+.ReportCustom__AddOMRWrap{
+    border-top: 1px solid #C5CCD7;
+    padding-top: 8px;
+}
+
+.ReportCustom__InputChoiceWrap{
+    display: flex;
+    align-items: center;
+}
+
+.ReportCustom__ChoiceEx{
+    display: inline-block;
+    font: normal normal normal 15px/17px Noto Sans KR;
+    color: #231F20;
+    text-align: center;
+    padding:8px;
+    padding-left: 0px;
+}
+
+.ReportCustom__ChoiceLabel{
+    box-sizing: border-box;
+    width:35px;
+    display: inline-block;
+    background: #1B3965;
+    text-align: center;
+    padding:8px;
+    border: 0.5px solid #102340;
+    font: normal normal normal 10px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    flex-shrink: 0;
+}
+
+.ReportCustom__Choice{
+    box-sizing: border-box;
+    width:35px;
+    display: inline-block;
+    text-align: center;
+    padding:8px;
+    background: #FFFFFF;
+    font: normal normal normal 10px/15px Noto Sans KR;
+    color: #231F20;
+    border: 0.5px solid #C5CCD7;
+    border-left: 0px;
+}
+
+.ReportCustom__InputShortWrap{
+    display: flex;
+    width: 55%;
+}
+
+.ReportCustom__InputShort{
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    padding:8px;
+    width:60%;
+    font: normal normal normal 10px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #C5CCD7;
+}
+
+
+.ReportCustomProblemContent{
+    box-sizing: border-box;
+    width:55%;
+    padding: 16px;
+    background-color: #FAFAFA;
+    border: 1px solid #E8EBEF;
+    border-radius: 2px;
+    height:100%
+}
+
+.ReportCustomProblemContent__ButtonWrap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+
+.ReportCustomProblemContent__ButtonDelete{
+    background: #FF7062;
+    border: 1px solid #EF4F3F;
+    border-radius: 2px;
+    padding:8px;
+    width:120px;
+    color:white;
+}
+
+.ReportCustomProblemContent__ControlButton{
+    background: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    color: white;
+    padding: 8px;
+    margin-left: 8px;
+}
+
+.ReportCustomOMRContent{
+    box-sizing: border-box;
+    width:40%;
+    padding: 16px;
+    background-color: #FAFAFA;
+    border: 1px solid #E8EBEF;
+    border-radius: 2px;
+}
+
+.ReportCustomOMRContent__InputShortWrap{
+    width:100%;
+    display: flex;
+    align-items: center;
+}
+
+.ReportCustomOMRContent__InputShortLabel{
+    box-sizing: border-box;
+    width:35px;
+    display: inline-block;
+    background: #1B3965;
+    text-align: center;
+    padding:8px;
+    border: 0.5px solid #102340;
+    font: normal normal normal 10px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    flex-shrink: 0;
+}
+
+.ReportCustomOMRContent__InputShort{
+    width:100%;
+    display: flex;
+    border: 0.5px solid #C5CCD7;
+    border-left: 0px;
+    padding: 8px;
+}
+
+
+.ReportCustomOMRContent__ButtonWrap{
+    margin-top: 32px;
+    padding-top: 32px;
+    border-top: 1px solid #C5CCD7;
+}
+
+.ReportCustomOMRContent__AddButtonWrap{
+    display: flex;
+    justify-content: space-between;
+}
+
+.ReportCustomOMRContent__AddButton{
+    background: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    padding:8px;
+    width:45%;
+    color:white;
+}
+
+.ReportCustomOMRContent__DeleteButtonWrap{
+    margin-top: 16px;
+}
+
+.ReportCustomOMRContent__DeleteButton{
+    background: #FF7062;
+    border: 1px solid #EF4F3F;
+    border-radius: 2px;
+    padding:8px;
+    width:45%;
+    color:white;
+}
+
+.ReportCustom__Temp{
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    padding: 8px;
+    border: 1px dashed #C5CCD7;
+    border-radius: 2px;
+    font: normal normal normal 14px/20px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #C5CCD7;
+    box-sizing: border-box;
+}
+
+@media(max-width:910px){
+    .ReportCustom__InputFileWrap{
+        width: 100%;
+    }
+    .ReportCustom__FileLabel{
+        width: 100%;
+    }
+    .ReportCustom__AddReportButton{
+        background: #9162FF;
+        border: 1px solid #6C3AE0;
+        border-radius: 2px;
+        color:white;
+        width:100%;
+        padding: 8px;
+        margin-top: 8px;
+    }
+    .ReportCustom__InputShortWrap{
+        width: 100%;
+    }
+    .ReportCustom__InputShort{
+        width:100%;
+    }
+}

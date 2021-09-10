@@ -1,0 +1,92 @@
+.Schedule__Body {
+  padding: 16px;
+  width: 800px;
+  background: #fafafa;
+  border: 1px solid #c5ccd7;
+  border-left: none;
+  border-radius: 0px 2px 2px 0px;
+}
+
+.Schedule__BodyHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #c5ccd7;
+}
+
+.Schedule__BodyTeacherName {
+  margin-top: 8px;
+  margin-right: 8px;
+  display: inline-block;
+  width: 160px;
+  background: #ffffff;
+  border: 1px solid #c5ccd7;
+  border-radius: 2px;
+  font: normal normal normal 10px/15px Noto Sans KR;
+  padding: 8px;
+  color: #231f20;
+}
+
+.Schedule__BodyTeacherNameLabel {
+  font: normal normal normal 10px/15px Noto Sans KR;
+  color: #231f20;
+}
+
+.Schedule__BodyHeaderButtonWrap {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+}
+
+.Schedule__BodyButtonAdd {
+  background: #1b3965;
+  padding: 8px;
+  width: 64px;
+  border: 1px solid #102340;
+  border-radius: 2px;
+  font: normal normal normal 10px/15px Noto Sans KR;
+  color: #ffffff;
+}
+
+.Schedule__BodyButtonDelete {
+  padding: 8px;
+  width: 64px;
+  background: #ff7062;
+  border: 1px solid #ef4f3f;
+  border-radius: 2px;
+  font: normal normal normal 10px/15px Noto Sans KR;
+  color: #ffffff;
+}
+
+.Schedule__BodySelectDistance {
+  background: #ffffff;
+  border: 1px solid #c5ccd7;
+  border-radius: 2px;
+  font: normal normal normal 10px/15px Noto Sans KR;
+  padding: 8px;
+}
+
+.Schedule__BodyButtonWeek {
+  background: #ffffff;
+  border: 1px solid #c5ccd7;
+  border-radius: 2px 0px 0px 2px;
+  padding: 8px;
+  font: normal normal normal 10px/15px Noto Sans KR;
+}
+.Schedule__BodyButtonMonth {
+  background: #ffffff;
+  border: 1px solid #c5ccd7;
+  border-radius: 2px 0px 0px 2px;
+  padding: 8px;
+  font: normal normal normal 10px/15px Noto Sans KR;
+}
+
+.Schedule__BodySelectStage {
+  background: #9162ff;
+  border: 1px solid #6c3ae0;
+  border-radius: 2px;
+  padding: 8px;
+  font: normal normal normal 10px/15px Noto Sans KR;
+  color: #ffffff;
+}

@@ -1,0 +1,71 @@
+.Schedule__Nav {
+  width: 150px;
+  height: 100%;
+  background: #1b3965;
+  border: 1px solid #102340;
+  border-radius: 2px 0px 0px 2px;
+}
+
+.Schedule__NavHeader {
+  padding: 16px;
+}
+
+.Schedule__UserName {
+  display: block;
+  padding-bottom: 8px;
+  font: normal normal bold 12px/17px Noto Sans KR;
+  color: #ffffff;
+}
+
+.Schedule__StateMessage {
+  display: block;
+  padding-bottom: 8px;
+  font: normal normal normal 8px/11px Noto Sans KR;
+  letter-spacing: 0px;
+  color: #fafafa;
+}
+
+.Schedule__Grade {
+  display: block;
+  font: normal normal normal 8px/11px Noto Sans KR;
+  letter-spacing: 0px;
+  color: #fafafa;
+}
+
+.Schedule__NavButton {
+  background: #1b3965;
+  border: none;
+  border-top: 1px solid #102340;
+  border-bottom: 1px solid #102340;
+  padding: 8px;
+  width: 50%;
+  font: normal normal normal 10px/15px Noto Sans KR;
+  color: #ffffff;
+}
+
+.Schedule__TeacherWrap {
+  background: #1b3965;
+  border-bottom: 1px solid #102340;
+  border-top: none;
+}
+
+.Schedule__TeacherWrap:hover {
+  background-color: #9162ff;
+}
+
+.Schedule__TeacherName {
+  display: block;
+  padding: 8px;
+  font: normal normal normal 10px/15px Noto Sans KR;
+  color: #ffffff;
+  text-align: center;
+}
+
+.Schedule__ButtonNavTeacher {
+  background: #102340;
+  border: 1px solid #102340;
+  font: normal normal normal 10px/15px Noto Sans KR;
+  width: 100%;
+  color: #ffffff;
+  padding: 8px;
+}

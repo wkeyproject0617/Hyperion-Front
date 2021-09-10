@@ -1,0 +1,66 @@
+
+
+.ReportGrammarShort__ContentWrap{
+    padding: 16px;
+    margin-top: 32px;
+    background-color: #FAFAFA;
+    border: 1px solid #E8EBEF;
+    border-radius: 2px;
+}
+
+.ReportGrammarShort__Table{
+    border-collapse: collapse;
+    width:100%;
+}
+
+#ReportGrammarShort__TableStyle{
+    border: 1px solid #C5CCD7;
+}
+
+.ReportGrammarShort__Thead{
+    border: 1px solid #C5CCD7;
+    background-color: rgb(230, 230, 230);
+}
+
+.ReportGrammarShort__NoLabel{
+    border: 1px solid #C5CCD7;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    padding:8px;
+    text-align: center;
+}
+
+.ReportGrammarShort__InputLabel{
+    border: 1px solid #C5CCD7;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    padding: 8px;
+    width:48%;
+}
+
+.ReportGrammarShort__SelectLabel{
+    border: 1px solid #C5CCD7;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    padding:5px;
+    text-align: center;
+}
+
+.ReportGrammarShort__No{
+    font: normal normal normal 12px/17px Noto Sans KR;
+    text-align: center;
+    color: white;
+    background-color: #1B3965;
+    padding:8px;
+}
+
+.ReportGrammarShort__Input{
+    box-sizing: border-box;
+    font: normal normal normal 12px/17px Noto Sans KR;
+    width: 100%;
+    height: 120px;
+    padding:8px;
+    border: none;
+}
+
+.ReportGrammarShort__SelectWrap{
+    border: 1px solid #C5CCD7;
+    background-color: white;
+}

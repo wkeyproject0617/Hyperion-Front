@@ -1,0 +1,36 @@
+div.wrap_img{
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+}
+div.wrap_button{
+  display:flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top:16px;
+  background-color: #8F8AFF;
+}
+div.button_contents{
+  display: inline-block;
+  margin: 32px;
+}
+h1.button_label{
+  margin:0;
+  color:white;
+  margin-bottom: 8px;
+}
+a.move_page_button{
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding:8px;
+  border-radius: 5px;
+  border-color: #777;
+  border-width: 1px;
+  font-size: 20px;
+  border-style: solid;
+  text-decoration: none;
+  color: black;
+}

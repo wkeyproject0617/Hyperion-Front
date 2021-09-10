@@ -1,0 +1,22 @@
+.PageButton{
+  margin-left:4px;
+  margin-right:4px;
+  width:35px;
+  height:35px;
+  background-color: #FAFAFA;
+  border: 1px solid #C5CCD7;
+  border-radius: 2px;
+  font: normal normal normal 14px/20px Noto Sans KR;
+}
+  
+.PageButton:hover{
+background-color: #1B3965;
+border: 1px solid #102340;
+border-radius: 2px;
+color:white;
+cursor:pointer;
+}
+
+.PageButton:focus {
+  outline:none;
+}

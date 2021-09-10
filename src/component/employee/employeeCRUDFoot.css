@@ -1,0 +1,35 @@
+.EmployeeCRUD__Foot{
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.EmployeeCRUD__ButtonGoList{
+    padding:8px;
+    margin: 8px;
+    width:120px;
+    background: #FFFFFF;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+}
+
+.EmployeeCRUD__ButtonDelete{
+    padding:8px;
+    margin: 8px;
+    width:120px;
+    background: #FF7062;
+    border: 1px solid #EF4F3F;
+    color: white;
+    border-radius: 2px;
+}
+
+.EmployeeCRUD__ButtonUpdate{
+    margin: 8px;
+    padding:8px;
+    width:120px;
+    background: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    color: white;
+    border-radius: 2px;
+}

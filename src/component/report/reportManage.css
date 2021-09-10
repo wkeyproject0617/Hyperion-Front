@@ -1,0 +1,165 @@
+.ReportManage{
+    margin-top: 64px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+    padding-left:15%;
+    padding-right:15%;
+}
+
+.PrepareReport{
+    width:400px;
+    background-color: #FAFAFA;
+    border: 1px solid #C5CCD7;
+    box-shadow: black;
+    padding:16px;
+}
+
+.ReportManage__TitleWrap{
+    padding-left:8px;
+    padding-right:8px;
+    padding-bottom:16px;
+    border-bottom: 1px solid #C5CCD7;
+}
+
+.ReportManage__Title{
+    display: block;
+    font: normal normal normal 20px/29px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #102340;
+}
+
+.ReportManage__SubTitle{
+    display: block;
+    font: normal normal normal 12px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #1B3965;
+}
+
+.PrepareReport__InputWrap{
+    padding-top:8px;
+}
+
+.ReportManage__InputLabel{
+    display: block;
+    font: normal normal normal 13px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #231F20;
+    padding:8px;
+}
+
+.ReportManage__InputSubLabel{
+    display: block;
+    font: normal normal normal 13px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #8C9BB1;
+    padding:8px;
+}
+
+.ReportManage__Input{
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    padding:8px;
+    font: normal normal normal 12px/15px Noto Sans KR;
+    width:100%;
+}
+
+.PrepareReport__DivisionWrap, .PrepareReport__LevelWrap, .PrepareReport__RoundWrap, .ReportRelease__InputStudentWrap{
+    width:50%;
+}
+
+.PrepareReport__ButtonWrap, .ReportRelease__ButtonWrap{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PrepareReport__Button{
+    box-sizing: border-box;
+    background-color: #9162FF;
+    border: 1px solid #6C3AE0;
+    border-radius: 2px;
+    padding:8px;
+    width:100%;
+    color:white;
+}
+
+.ReportRelease{
+    width:400px;
+    background-color: #FAFAFA;
+    border: 1px solid #C5CCD7;
+    box-shadow: black;
+    padding:16px;
+    margin-left: 32px;
+}
+
+.ReportRelease__InputWrap{
+    padding-top:8px;
+}
+
+.ReportRelease__InputDeadLineContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.ReportRelease__InputDeadLineDateWrap{
+    display: flex;
+    flex-shrink: 1;
+}
+
+.ReportManage__InputDeadLineDate{
+    width:65px;
+    background-color: #FFFFFF;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    padding:8px;
+    text-align: center;
+    font: normal normal normal 12px/15px Noto Sans KR;
+}
+
+.ReportManage__InputDeadLineTime{
+    width:25px;
+    background-color: #FFFFFF;
+    border: 1px solid #C5CCD7;
+    border-radius: 2px;
+    padding:8px;
+    font: normal normal normal 12px/15px Noto Sans KR;
+    text-align: center;
+}
+
+.ReportManage__InputDeadLineLabel{
+    font: normal normal normal 13px/15px Noto Sans KR;
+    letter-spacing: 0px;
+    color: #231F20;
+    padding:8px;
+}
+
+.ReportRelease__ButtonReleaseImmedi{
+    box-sizing: border-box;
+    background-color: #1B3965;
+    border: 1px solid #102340;
+    border-radius: 2px;
+    padding:8px;
+    width:45%;
+    color:white;
+}
+.ReportRelease__ButtonRelease{
+    box-sizing: border-box;
+    background-color: #9162FF;
+    border: 1px solid #6C3AE0;
+    border-radius: 2px;
+    padding:8px;
+    width:45%;
+    color:white;
+}
+
+@media(max-width:1300px){
+    .ReportManage{
+        padding-left:5%;
+        padding-right:5%;
+    }
+}

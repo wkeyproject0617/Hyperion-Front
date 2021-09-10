@@ -1,0 +1,72 @@
+.ConfirmModal{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.ConfirmModal__ContentsWrap{
+    width:300px;
+    background: rgba(255, 255, 255, 1);
+}
+
+.ConfirmModal__TopBottomStyle{
+    box-sizing: border-box;
+    width:100%;
+    height:8px;
+    background-color: #1B3965;
+    border:1px solid #102340;
+}
+
+.ConfirmModal__BackButtonWrap{
+    box-sizing: border-box;
+    width:100%;
+    padding:4px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ConfirmModal__TitleWrap{
+    padding: 4px;
+    background: #F3F4F6;
+    border: 1px solid #C5CCD7;
+}
+
+.ConfirmModal__Contents{
+    padding:16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ConfirmModal__Text{
+    display: block;
+    font: normal normal normal 14px/17px Noto Sans KR;
+    text-align: center;
+    color: #102340;
+}
+
+.ConfirmModal__ControlButtonWrap{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+.ConfirmModal__ButtonConfirm{
+    padding: 8px;
+    background: #1B3965;
+    border: 1px solid #102340;
+    color: white;
+    width: 80px;
+    border-radius: 2px;
+    
+}

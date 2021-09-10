@@ -1,0 +1,15 @@
+.ReportHeader{
+    display: flex;
+    justify-content: center;
+    background-color: #102340;
+}
+
+.ReportHeaderButton{
+    padding:8px;
+    width:150px;
+    background-color: #102340;
+    border: none;
+    font: normal normal normal 16px/24px Noto Sans KR;
+    text-align: center;
+    color: #8C9BB1;
+}
